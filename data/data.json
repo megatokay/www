@@ -1,0 +1,218 @@
+[
+  {
+    "id": "1",
+    "name": "Juan",
+    "identification": "Guzman",
+    "email": "ferfverferferwfer@fadsfasfds.com",
+    "phonePrimary": "412342343",
+	"phoneSecondary": "2341324",
+	"fax": "2341234",
+	"mobile": "3241324423",
+    "observations": "Muy recomendado a la comunidad de Alegra!",
+    "address": {
+      "address": "213 Calle Sucre",
+      "city": "Maracay"
+  },
+	"type": ["client", "provider"],
+  	"seller": null,
+	"term": {
+		"id": "1",
+		"name": "De contado",
+		"days": "0"
+	},
+	"priceList": null,
+	"internalContacts": []
+},
+  {
+    "id": "2",
+    "name": "Maria",
+    "identification": "Salas",
+    "email": "ferfverferferwfer@fadsfasfds.com",
+    "phonePrimary": "412342343",
+	"phoneSecondary": "2341324",
+	"fax": "2341234",
+	"mobile": "3241324423",
+    "observations": "Cliente y Provedor excelente, muy recomendado a la comunidad.",
+    "address": {
+      "address": "7823 Av. Rojas",
+      "city": "Caracas"
+   },
+	"type": ["client", "provider"],
+  	"seller": null,
+	"term": {
+		"id": "1",
+		"name": "De contado",
+		"days": "0"
+	},
+	"priceList": null,
+	"internalContacts": []
+},
+  {
+    "id": "3",
+    "name": "Sandro",
+    "identification": "Sexto",
+    "email": "ferfverferferwfer@fadsfasfds.com",
+    "phonePrimary": "412342343",
+	"phoneSecondary": "2341324",
+	"fax": "2341234",
+	"mobile": "3241324423",
+    "observations": "1000% excelente cliente.",
+    "address": {
+      "address": "834 Urb. Juana la Avanzadora",
+      "city": "Upata"
+    },
+	"type": ["client", "provider"],
+  	"seller": null,
+	"term": {
+		"id": "1",
+		"name": "De contado",
+		"days": "0"
+	},
+	"priceList": null,
+	"internalContacts": []
+},
+  {
+    "id": "4",
+    "name": "Ernesto",
+    "identification": "Sandoval",
+    "email": "ferfverferferwfer@fadsfasfds.com",
+    "phonePrimary": "412342343",
+	"phoneSecondary": "2341324",
+	"fax": "2341234",
+	"mobile": "3241324423",
+    "observations": "Muy atento cliente!",
+    "address": {
+      "address": "7807 Av. Fuerzas Armadas",
+      "city": "Guayana"
+     },
+	"type": ["client", "provider"],
+  	"seller": null,
+	"term": {
+		"id": "1",
+		"name": "De contado",
+		"days": "0"
+	},
+	"priceList": null,
+	"internalContacts": []
+},
+  {
+    "id": "5",
+    "name": "Elena",
+    "identification": "Salazar",
+    "email": "ferfverferferwfer@fadsfasfds.com",
+    "phonePrimary": "412342343",
+	"phoneSecondary": "2341324",
+	"fax": "2341234",
+	"mobile": "3241324423",
+    "observations": "Fino.",
+    "address": {
+      "address": "1857 Calle La Concordia",
+      "city": "Merida"
+    },
+	"type": ["client", "provider"],
+  	"seller": null,
+	"term": {
+		"id": "1",
+		"name": "De contado",
+		"days": "0"
+	},
+	"priceList": null,
+	"internalContacts": []
+},
+  {
+    "id": "6",
+    "name": "Katy",
+    "identification": "Palacios",
+    "email": "ferfverferferwfer@fadsfasfds.com",
+    "phonePrimary": "412342343",
+	"phoneSecondary": "2341324",
+	"fax": "2341234",
+	"mobile": "3241324423",
+    "observations": "Muy presto a ser diligente.",
+    "address": {
+      "address": "1857 Calle 1 cruce con calle 2.",
+      "city": "Barcelona"
+    },
+	"type": ["client", "provider"],
+  	"seller": null,
+	"term": {
+		"id": "1",
+		"name": "De contado",
+		"days": "0"
+	},
+	"priceList": null,
+	"internalContacts": []
+},
+  {
+    "id": "7",
+    "name": "Karina",
+    "identification": "Herde",
+    "email": "ferfverferferwfer@fadsfasfds.com",
+    "phonePrimary": "412342343",
+	"phoneSecondary": "2341324",
+	"fax": "2341234",
+	"mobile": "3241324423",
+    "observations": "Aunque se tuvo algunos problemas al final del dia la venta se dio.",
+    "address": {
+      "address": "1857 Av. El Presidente",
+      "city": "Cumana"
+  },
+	"type": ["client", "provider"],
+  	"seller": null,
+	"term": {
+		"id": "1",
+		"name": "De contado",
+		"days": "0"
+	},
+	"priceList": null,
+	"internalContacts": []
+},
+  {
+    "id": "8",
+    "name": "Nelida",
+    "identification": "Silva",
+    "email": "ferfverferferwfer@fadsfasfds.com",
+    "phonePrimary": "412342343",
+	"phoneSecondary": "2341324",
+	"fax": "2341234",
+	"mobile": "3241324423",
+    "observations": "No hay problemas con este proveedor.",
+    "address": {
+      "address": "1857 Calle Rivas",
+      "city": "Caracas"
+     },
+	"type": ["client", "provider"],
+  	"seller": null,
+	"term": {
+		"id": "1",
+		"name": "De contado",
+		"days": "0"
+	},
+	"priceList": null,
+	"internalContacts": []
+},
+  {
+    "id": "9",
+    "name": "Pedro",
+    "identification": "Zavala",
+    "email": "ferfverferferwfer@fadsfasfds.com",
+    "phonePrimary": "412342343",
+	"phoneSecondary": "2341324",
+	"fax": "2341234",
+	"mobile": "3241324423",
+    "observations": "Recomendado!",
+    "address": {
+      "address": "7398 Av. Orinoco",
+      "city": "Maturin"
+    },
+	"type": ["client", "provider"],
+  	"seller": null,
+	"term": {
+		"id": "1",
+		"name": "De contado",
+		"days": "0"
+	},
+	"priceList": null,
+	"internalContacts": []
+}
+]

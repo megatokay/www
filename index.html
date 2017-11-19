@@ -1,0 +1,288 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Contactos</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+        
+    
+      </head>
+  <body ng-app="ngCribs" ng-controller="AlegraController">
+
+  	<!-- Nav Bar -->
+	  <nav class="navbar navbar-default">
+	    <div class="container-fluid">
+	      <div class="navbar-header">
+	        <a class="navbar-brand" href="#">Contactos Alegra</a>
+	      </div>
+	    </div>
+	  </nav>
+		
+	<div class="container">
+		  <div class="col-sm-12 price-form">      
+		  <div class="search">
+		  <h1>ALEGRA</h1>
+		         <div class="input-group">
+			            <span class="input-group-addon">Buscar</span>
+			      		<input type="text" placeholder="Contactos" autofocus ng-model="query"/>
+			     </div>          
+	</div>
+		  
+		  
+		    <button 
+		    	class="btn btn-primary" 
+		    	ng-click="addListing = !addListing" 
+		    	ng-show="!addListing">Agregar Contacto
+		    </button>
+
+		    <button 
+		    	class="btn btn-danger" 
+		    	ng-click="addListing = !addListing" 
+		    	ng-show="addListing">Cerrar
+		    </button>
+
+		      <div class="listing-form" ng-if="addListing">
+
+		        <h3>Agregar Contactos</h3>
+
+		        <div class="row listing-form-row">
+		        
+		          <div class="col-sm-4">
+		            <div class="input-group">
+		              <span class="input-group-addon">Identification</span>
+		              <input 
+		              	type="text" 
+		              	placeholder="Enter the identification" 
+		              	class="form-control" 
+		              	ng-model="newListing.identification">
+		            </div>
+		          </div>
+
+		          <div class="col-sm-4">
+		            <div class="input-group">
+		              <span class="input-group-addon">Nombre</span>
+		              <input 
+		              	type="text" 
+		              	placeholder="Enter the name" 
+		              	class="form-control" 
+		              	ng-model="newListing.name">
+		            </div>
+		          </div>
+		          
+		          <div class="col-sm-4">
+		            <div class="input-group">
+		              <span class="input-group-addon">Type</span>
+        
+		              <label><input type="checkbox" ng-model="newListing.type[0]" checklist-value="client"> Cliente</label>
+<label><input type="checkbox" ng-model="newListing.type[1]" checklist-value="provider"> Proveedor</label>
+		              
+		              
+		              
+		              
+	      	           
+		            </div>
+		          </div>
+		        </div>
+
+
+		        <div class="row listing-form-row">
+		        
+		        <div class="col-sm-4">
+		              <div class="input-group">
+		                <span class="input-group-addon">Dirección</span>
+		                <textarea 
+		                	type="text" 
+		                	placeholder="Dirección" 
+		                	class="form-control" 
+		                	ng-model="newListing.address.address">
+		                </textarea>		                
+		              </div>
+		            </div>	
+		            
+		            
+		              <div class="col-sm-4">
+		              <div class="input-group">
+		                <span class="input-group-addon">Ciudad</span>
+		                <input 
+		                	type="text" 
+		                	placeholder="Ciudad" 
+		                	class="form-control" 
+		                	ng-model="newListing.address.city">
+		              </div>
+		            </div>
+
+		            <div class="col-sm-4">
+		              <div class="input-group">
+		                <span class="input-group-addon">mobile</span>
+		                <input 
+		                	type="text" 
+		                	placeholder="mobile" 
+		                	class="form-control" 
+		                	ng-model="newListing.mobile">
+		              </div>
+		            </div>
+		            	         		          
+		    </div>
+		    
+		     <div class="row listing-form-row">
+		     
+		     <div class="col-sm-4">
+		            <div class="input-group">
+		              <span class="input-group-addon">Observations</span>
+		              <textarea 
+		              	type="text" 
+		              	placeholder="Enter the observations" 
+		              	class="form-control" 
+		              	ng-model="newListing.observations">
+		              </textarea>
+		            </div>
+		          </div>
+		     
+		     	   <div class="col-sm-4">
+		              <div class="input-group">
+		                <span class="input-group-addon">email</span>
+		                <input 
+		                	type="text" 
+		                	placeholder="email" 
+		                	class="form-control" 
+		                	ng-model="newListing.email">
+		              </div>
+		            </div>
+
+		            <div class="col-sm-4">
+		              <div class="input-group">
+		                <span class="input-group-addon">phonePrimary</span>
+		                <input 
+		                	type="text" 
+		                	placeholder="phonePrimary" 
+		                	class="form-control" 
+		                	ng-model="newListing.phonePrimary">
+		              </div>
+		            </div>
+		            
+		             <div class="col-sm-4">
+		              <div class="input-group">
+		                <span class="input-group-addon">phoneSecondary</span>
+		                <input 
+		                	type="text" 
+		                	placeholder="phoneSecondary" 
+		                	class="form-control" 
+		                	ng-model="newListing.phoneSecondary">
+		              </div>
+		            </div>
+		            
+		            <div class="col-sm-4">
+		              <div class="input-group">
+		                <span class="input-group-addon">fax</span>
+		                <input 
+		                	type="text" 
+		                	placeholder="fax" 
+		                	class="form-control" 
+		                	ng-model="newListing.fax">
+		              </div>
+		            </div>
+
+		      </div>
+		      		            
+		           		          
+		                    		          
+                  
+		           		          
+		        </div>
+		        
+ 
+						<button 
+							class="btn btn-primary listing-button"
+							ng-click="addCrib(newListing)"
+							ng-show="addListing">Agregar
+						</button>
+		        <pre>{{newListing | json}}</pre>
+		      </div>
+
+
+
+
+
+
+	        <div class="listing-form" ng-if="editListing">
+
+	         <h3>Edit Lijjjsting</h3>
+
+
+	           <button 
+	           	class="btn btn-danger listing-button" 
+	           	ng-click="deleteCrib(existingListing)" 
+	           	ng-show="editListing">Delete
+	           </button>
+
+	           </div>
+
+		  </div>
+	  </div>
+
+	    
+
+
+    <div class="container">
+      <div class="col-sm-6" 
+      
+            	ng-repeat="crib in cribs | filter:query | orderBy: '-id'">    
+      	      
+        <div class="thumbnail">
+          
+          <div class="caption">
+            <div ng-hide="showDetails === true">
+               <h3><i class="glyphicon glyphicon-user"></i> {{crib.name}}</h3>
+              <h4><i class="glyphicon glyphicon-home"></i> {{crib.address.address}} 
+                <span class="label label-primary label-sm">{{crib.type[0]}}</span>
+              </h4>
+
+            </div>             
+
+            <button class="btn btn-xs btn-success" 
+                    ng-hide="showDetails === true" 
+                    ng-click="showDetails = !showDetails">
+                    Detalles
+            </button>
+
+            <button 
+            	class="btn btn-xs btn-primary"
+            	ng-show="showDetails"
+               ng-click="deleteCrib(existingListing)" >Borrar
+<!--                ng-click="editCrib(crib)">Edit -->
+            </button>
+
+            <button 
+                    class="btn btn-xs btn-danger" 
+                    ng-show="showDetails === true"
+                    ng-click="showDetails = !showDetails">
+                    Close
+            </button>
+
+            <div class="address" ng-show="showDetails === true">
+              <h4>
+                <span class="label label-primary">Dirección: {{crib.address.address}}</span>
+                <span class="label label-primary">Ciudad: {{crib.address.city}}</span>
+                <span class="label label-primary">Mobile: {{crib.mobile}}</span>
+              </h4>
+              <p>{{crib.observations}}</p>              
+            </div>
+
+          </div> 
+        </div>
+      </div>          
+    </div>
+
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.4/ui-bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.4/ui-bootstrap-tpls.min.js"></script>
+  
+   <script src="js/app.js"></script>
+          <script src="js/AlegraController.js"></script>
+     <script src="js/AlegraFactory.js"></script>
+     
+     
+
+</html>
